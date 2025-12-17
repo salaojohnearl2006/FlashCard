@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flashcard</title>
+    <link rel="stylesheet" href="earl.css">
+</head>
+<body>
+
+<div id="title1">
+    <h1>ERL's Flashcard Creator</h1>
+
+    <div id="box1">
+        <button id="button1">Add Flashcard</button><br>
+
+        <label>QUESTION</label><br>
+        <textarea id="userInput" placeholder="Insert your question here....."></textarea><br>
+
+        <label>ANSWER</label><br>
+        <textarea id="userInput2" placeholder="Insert your answer here....."></textarea>
+    </div>
+
+    <div id="box2">
+        <div class="flip-box" id="flipBox">
+            <div class="flip-face front">
+                <p id="questionText">Add a flashcard</p>
+            </div>
+
+            <div class="flip-face back">
+                <p id="answerText"></p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="show">Show Answer</button>
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+            <button id="delete">Delete All</button>
+        </div>
+    </div>
+</div>
+
+<script src="earl.js"></script>
+</body>
+</html>
